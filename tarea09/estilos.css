@@ -1,0 +1,169 @@
+#cabecera {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu {
+    margin-left: auto; 
+}
+
+#menu ul {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: flex-end; 
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+}
+
+#menu li {
+    margin: 0 10px;
+    background-color: rgb(227, 230, 50);
+}
+
+#menu a {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px;
+}
+#Formulario {
+    width: 100%;
+    max-width: 400px; 
+    margin: 0 auto; 
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#Formulario h2 {
+    color: #d5d22b; 
+    text-align: left;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+.campo label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo input[type="tel"], .campo textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.campo textarea {
+    height: 100px; 
+}
+
+.botones {
+    text-align: center;
+}
+
+.btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+footer{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#primero {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    width: 100%; 
+}
+
+
+#primero h2 {
+    color: #d5d22b; 
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+
+#tabla_uno table {
+    width: 100%; 
+    border-collapse: collapse;
+    font-size: 14px; 
+}
+
+
+#tabla_uno th {
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+
+#tabla_uno td {
+    padding-left: 10px; 
+    padding-bottom: 5px;
+}
+
+
+#tabla_uno th, #tabla_uno td {
+    border-bottom: 1px solid #ccc;
+}
+
+
+#primero h2 + div h2 {
+    color: #d5ad2b;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+#primero p strong {
+    font-weight: bold;
+}
+#cuerpo{
+    background-color: #d5d22b;
+}
+#cuerpo{
+    display: flex;
+    flex-direction:row;
+}
+#mapa{
+    align-items: center;
+}
